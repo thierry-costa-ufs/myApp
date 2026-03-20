@@ -19,11 +19,11 @@ Um aplicativo minimalista e funcional para acompanhamento de séries de muscula�
 
 1. Instale as dependências:
    ```bash
-   npm install```
+   npm install
 
 2. Inicie o servidor do Expo:
    ```bash
-   npx expo start```
+   npx expo start
    
 3. Escaneie o QR Code com o app Expo Go (Android/iOS) ou use um emulador.
 
