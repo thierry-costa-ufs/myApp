@@ -1,50 +1,36 @@
-# Welcome to your Expo app 👋
+# 🏋️‍♂️ Workout Tracker - Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um aplicativo minimalista e funcional para acompanhamento de séries de musculação em tempo real, desenvolvido com React Native e Expo.
 
-## Get started
+## ✨ Funcionalidades Atuais
+- **Contador Independente:** Cada exercício possui seu próprio controle de séries.
+- **Interface Dark Mode:** Design otimizado para ambientes de academia.
+- **Indicadores de Status:** Feedback visual (Vermelho, Laranja, Verde) baseado no progresso.
+- **Lógica de Segurança:** Travas que impedem séries negativas ou acima do limite estipulado.
+- **Feedback de Conclusão:** Texto riscado e botões desabilitados ao finalizar o exercício.
 
-1. Install dependencies
+## 🛠️ Tecnologias Utilizadas
+- React Native
+- Expo (Router & SDK)
+- TypeScript
+- React Native Safe Area Context
 
+## 🚀 Como rodar o projeto
+
+1. Instale as dependências:
    ```bash
-   npm install
-   ```
+   npm install```
 
-2. Start the app
-
+2. Inicie o servidor do Expo:
    ```bash
-   npx expo start
-   ```
+   npx expo start```
+   
+3. Escaneie o QR Code com o app Expo Go (Android/iOS) ou use um emulador.
 
-In the output, you'll find options to open the app in a
+## 📈 Próximos Passos
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+    [ ] Refatorar Item para um componente separado.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+    [ ] Implementar persistência local com AsyncStorage.
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+    [ ] Criar fluxo de criação/edição de treinos.
